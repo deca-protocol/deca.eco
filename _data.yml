@@ -1,0 +1,34 @@
+lang: en
+
+home:
+  welcome: DECA PROTOCOL
+  icon: favicon.png 
+
+menu_links: [
+  {
+    text: Docs,
+    href: "https://docs.deca.eco"},
+  {
+    text: Devs,
+    href: "https://git.decentralizedscience.org/DECA"
+  },
+  {
+    text: DAO,
+    href: "https://snapshot.org/#/decentralizedcarbon.eth"
+  },
+  {
+    text: Forum,
+    href: "https://forum.deca.eco/"
+  },
+]
+
+extra_head: []
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: DECA
+  description: The DECA Protocol site
+  title: "=title"
+  image: "=image"
+  twitter: "@username"
+  lang: en
