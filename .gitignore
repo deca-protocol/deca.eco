@@ -1,0 +1,5 @@
+src/uploads
+_vendor
+_site
+_bin
+deno.lock
