@@ -6,6 +6,8 @@ const site = lume({
   location: new URL("https://blog.deca.eco"),
 });
 
+site.copy("img");
+
 site.use(relativeUrls());
 site.use(blog());
 

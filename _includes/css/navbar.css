@@ -31,5 +31,27 @@
 }
 
 .navbar-home {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  color: var(--color-foreground);
+  column-gap: 10px;
   text-decoration: none;
+  font: var(--text-body-bold);
+  letter-spacing: var(--text-title-spacing);
+
+
+  & img {
+    margin-bottom: 10px;
+    width:175px;
+    height:58px;
+  }
+
+  & span {
+    @media (max-width: 820px) {
+      display: none;
+    }
+  }
+
 }
+

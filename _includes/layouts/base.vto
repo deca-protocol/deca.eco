@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metas.site }}">
     <link rel="alternate" href="/feed.json" type="application/json" title="{{ metas.site }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
     <link rel="canonical" href="{{ url |> url(true) }}">
     <script src="/js/main.js" type="module"></script>
     {{ it.extra_head?.join("\n") }}
@@ -22,7 +22,7 @@
     <nav class="navbar">
       <a href="/" class="navbar-home">
         {{ if it.logo }}
-          {{ it.logo }}
+          <img src="/img/{{ it.logo }}" alt="{{ metas.site }}">
         {{ else }}
           <strong>{{ metas.site }}</strong>
         {{ /if }}
