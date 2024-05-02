@@ -8,6 +8,10 @@ home:
 
 menu_links: [
   {
+    text: CCDB,
+    href: "https://search.deca.eco"
+  },
+  {
     text: Docs,
     href: "https://docs.deca.eco"},
   {
