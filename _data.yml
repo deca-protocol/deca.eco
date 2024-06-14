@@ -1,6 +1,8 @@
 lang: en
 
-logo: deca-logo.png
+logo_dark: /img/deca-logo-dark.png
+
+logo_light: /img/deca-logo-light.png
 
 home:
   welcome: DECA PROTOCOL
