@@ -13,6 +13,14 @@
   text-wrap: balance;
 }
 
+.page-title-landing {
+  font: var(--font-display);
+  letter-spacing: var(--font-display-spacing);
+  text-align: center;
+  margin: 0;
+  text-wrap: balance;
+}
+
 .page-navigation {
   margin-bottom: var(--row-gap-medium);
 
@@ -35,4 +43,75 @@
 .page-pagination {
   border-top: solid 1px var(--color-line);
   margin-top: var(--row-gap-medium);
+}
+
+.container {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.main-button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the main button and the right button */
+    flex-wrap: wrap; /* Allow wrapping if screen space is limited */
+    padding: 10px; /* Some padding to avoid touching screen edges */
+    position: relative;
+}
+
+.main-button, .specification-button {
+    background-color: inherit;
+    color: inherit;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    border-style: double;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px var(--color-link-hover, rgba(0, 0, 0, 0.2));
+}
+
+.main-button:hover, .main-button:focus,
+.specification-button:hover, .specification-button:focus {
+    color: var(--color-link-hover);
+    border-style: solid;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px var(--color-link-hover, rgba(0, 0, 0, 0.4));
+}
+
+.hover-buttons {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+}
+
+.main-button:hover .hover-buttons,
+.main-button:focus .hover-buttons {
+    display: block;
+}
+
+.specification-button {
+    margin: 5px 0;
+}
+
+.secondary-button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    background-color: inherit;
+    color: inherit;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.secondary-button:hover, .secondary-button:focus {
+    border-style: solid;
+    transform: translateY(-2px);
 }

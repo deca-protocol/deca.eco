@@ -5,40 +5,24 @@ title: Home
 ---
 
 <header class="page-header">
-  <h1 class="page-title">{{ home.welcome }}</h1>
-
-  <div class="search" id="search"></div>
+  <h1 class="page-title-landing">{{ home.welcome }}</h1>
 </header>
 
-<section class="postList">
-  {{ for post of search.pages("type=post", "date=desc", 3) }}
-  <article class="post">
-    <header class="post-header">
-      <h2 class="post-title">
-        <a href="{{ post.url }}" {{ if post.url == url }} aria-current="page"{{ /if }}>
-          {{ post.title || post.url }}
-        </a>
-      </h2>
-
-      {{ include "templates/post-details.vto" {
-        date: post.date,
-        tags: post.tags,
-        author: post.author,
-        readingInfo: post.readingInfo
-        } }}
-    </header>
-
-    <div class="post-excerpt body">
-      {{ post.excerpt |> md }}
-    </div>
-
-    <a href="{{ post.url }}" class="post-link">
-      {{ i18n.nav.continue_reading }}
-    </a>
-  </article>
-{{ /for }}
+<section class="container">
+        <div class="main-button-group">
+            <a href="https://docs.google.com/presentation/d/1H4V5X0X-9jnulwmmQBKk7PiStqKoPh_t_h7F0R3kLw0/edit?usp=sharing" target="_blank" class="specification-button">Specification</a>
+            <div class="main-button">
+                Get Deca
+                <div class="hover-buttons">
+                    <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x3556a5005d5411603e0115efd9b875fdfb3ad7e9&chain=mainnet" target="_blank" class="secondary-button">Mainnet</a>
+                    <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x02f1cb850799d651d56775dae04f66362eb8e4b2&chain=arbitrum" target="_blank" class="secondary-button">Arbitrum</a>
+                </div>
+            </div>
+        </div>
 </section>
-
+<br>
+<br>
+<br>
 <hr>
 
 <p>{{ i18n.nav.archive }}</p>

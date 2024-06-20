@@ -4,7 +4,7 @@ title: FAQs
 url: /faq/
 menu:
   visible: true
-  order: 2
+  order: 3
 ---
 
 ## What is DECA Token?
