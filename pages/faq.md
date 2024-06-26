@@ -23,6 +23,15 @@ Networks
 * <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x3556a5005d5411603e0115efd9b875fdfb3ad7e9&chain=mainnet" target="_blank"> Uniswap on the Ethereum Network</a>
 * <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x02f1cb850799d651d56775dae04f66362eb8e4b2&chain=arbitrum" target="_blank"> Uniswap Arbitrum L2 Network</a>
 
+It is up to the comunity to provide liquidity and bridge into other Ethereum 
+Layers or Dexes. If you did please contact us to verify and update this section.
+
+> Disclossure Agreement:
+> You should be aware of your own country cryptocurrency regulations and it is 
+your own responsability to comply with the laws of your country.
+
+### Don't trust, VERIFY!
+
 **IMPORTANT:** Always verify the address of the DECA Smart contract. Here is a 
 list of DECA contracts in multiple Networks:
 
@@ -34,13 +43,9 @@ list of DECA contracts in multiple Networks:
 | ZKEVM   |  <a href="https://zkevm.polygonscan.com/token/0x34f4e513517f7aea7d6ef797b30ed56af8000344?a=0xDDd93CEC5843f471Eb2b8B2886b2Be32555B5209" target="_blank">0x34f4E513517f7aEA7D6Ef797b30Ed56AF8000344</a> |
 | ZKSync   | Unknown |
 
+> Notice: There might be some fake smart contracts trying to look like the DECA
+> smart contract or fake DECA tokens.
 
-It is up to the comunity to provide liquidity and bridge into other Ethereum 
-Layers or Dexes. If you did please contact us to verify and update this section.
-
-> Notice: Disclossure Agreement
-> You should be aware of your own country cryptocurreny regulations and it is 
-your own responsability to comply with the laws of your country.
 
 ### Can I mine DECA Token?
 
