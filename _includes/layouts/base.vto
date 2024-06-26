@@ -54,14 +54,12 @@
             : "light");
           document.documentElement.dataset.theme = theme;
           document.getElementById("theme-logo").src = theme === "dark" ? darkLogo : lightLogo;
-          console.log("lightLogo:", ligthLogo, "darkLogo:", darkLogo);
 
           function changeTheme() {
             theme = theme === "dark" ? "light" : "dark";
             localStorage.setItem("theme", theme);
             document.documentElement.dataset.theme = theme;
             document.getElementById("theme-logo").src = theme === "dark" ? darkLogo : lightLogo;
-            console.log("lightLogo:", ligthLogo, "darkLogo:", darkLogo);
           }
         </script>
         <button class="button" onclick="changeTheme()">
