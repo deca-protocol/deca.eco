@@ -43,8 +43,6 @@
       {{ /for }}
       <li>
         <script>
-          //const lightLogo = "{{ it.logo-light }}";
-          //const darkLogo = "{{ it.logo-dark }}";
           const lightLogo = "/img/deca-logo-light.png";
           const darkLogo = "/img/deca-logo-dark.png";
           
@@ -74,5 +72,7 @@
     </main>
 
     <!-- Current page: {{ url }} -->
+    {{ include "templates/footer.vto" }}
+
   </body>
 </html>
